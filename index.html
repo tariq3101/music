@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music - Bajate rahooo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="nahi dikhra">Music</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songList">
+            <h1>Wanna Play some music</h1>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img src="covers/Justine-Bieber-Let-Me-Love-You.png" alt="1">
+                    <span class="songName">Let me Love You</span>
+                    <span class="songlistplay"><span class="timestamp">05:34<i id="0"  class="far songItemPlay fa-2x fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/Coldplay - Hymn For The Weekend.jpg" alt="1">
+                    <span class="songName">Hymn For The Weekend</span>
+                    <span class="songlistplay"><span class="timestamp">05:34<i id="1"  class="far songItemPlay fa-2x fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/Ed Sheeran - Shape of You.png" alt="1">
+                    <span class="songName">Shape of You</span>
+                    <span class="songlistplay"><span class="timestamp"><p>05:34</p><i id="2" class="far songItemPlay fa-2x fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/Home Free - Sea Shanty Medley.jpg" alt="1">
+                    <span class="songName">Sea Shanty Medley</span>
+                    <span class="songlistplay"><span class="timestamp">05:34<i id="3" class="far songItemPlay fa-2x fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/Jason Derulo - Swalla feat. Nicki Minaj Ty Dolla.jpg" alt="1">
+                    <span class="songName">Swalla</span>
+                    <span class="songlistplay"><span class="timestamp">05:34<i id="4" class="far songItemPlay fa-2x fa-play-circle"></i></span></span>
+                </div>
+            </div>
+        </div >
+        <div class="songBanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <!-- fontawesom icons -->
+            <i class="fas fa-3x fa-backward-step" id="backward"></i>
+            <i class="far fa-3x fa-play-circle" id="masterPlay"></i>
+            <i class="fas fa-3x fa-forward-step" id="forward"></i>
+        </div>
+        <div class="songInfo">
+            <img src="waves.gif" id="gif" width="42px" alt="nahi dikhra"> Let me love you - Justine Bieber 
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/373b8fe508.js" crossorigin="anonymous"></script>
+</body>
+</html>
